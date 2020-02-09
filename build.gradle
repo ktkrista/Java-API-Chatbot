@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "net.dean.jraw:JRAW:1.1.0"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    compile 'org.jibble.pircbot:pircbot:1.5.0'
+    
+
+}
